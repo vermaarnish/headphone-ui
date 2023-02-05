@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(223, 223, 232);
+   
+}
+li
+{
+    list-style: none;
+}
+li:hover
+{
+    cursor: pointer;
+}
+nav
+{ 
+    padding-top: 20px;
+    display: flex;
+    height: 10vh;
+}
+ .logo-image
+ {
+   padding-left: 60px;
+   width: 20%;
+ }
+.nav-heading
+{  
+    padding-left:10px;
+    padding-right: 80px;
+    display:flex;
+    gap: 100px;
+    justify-content:center;
+    font-size: larger;
+    font-weight: 500;
+}
+main{
+    margin-top:20px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.main-left h1
+{
+    font-size: 60px;
+    font-weight: 700;
+}
+.main-left p
+{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 4% 0%;
+}
+button{
+    background-color: #4b9974;
+    margin-top: 10px;
+    padding:15px 20px;
+    color: white;
+    font-size: larger;
+    border-style: none;
+    border-radius: 10px;
+}
+button:hover
+{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: black;
+}
+.main-right
+{
+ padding: 3px;
+ width: 40%;
+ margin-bottom:20px;
+}
+/* .main-right div img{
+    width: 40%;
+} */
+.image-2 img
+{
+    width:45%
+}
+.main-right
+{
+    height:fit-content;
+}
+ .main-right div img:first-child 
+{
+    margin-right: 10px;
+}
+ .main-right div
+{  
+    margin-top:12px;
+}
+.image-1 img{
+    margin-left: 25px;
+    width:78%
+}
+footer
+{
+    height:10vh;
+}
